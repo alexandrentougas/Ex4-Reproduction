@@ -1,0 +1,28 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.topsec {
+  display: flex;
+  height: 100vh;
+  background-color: #0ec2f7;
+  color: white;
+}
+
+.justbet {
+  justify-content: space-between;
+}
+
+.aligncenter {
+  align-self: center;
+  justify-content: flex-start;
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
