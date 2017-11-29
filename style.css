@@ -4,7 +4,7 @@ html,body {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   font-size: 1em;
 }
@@ -20,12 +20,9 @@ header {
   color: white;
 }
 
-.paddingleft {
-  padding-left: 80px;
-}
-
-.paddingright {
-  padding-right: 80px;
+.paddingpage {
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .mainmenu {
@@ -36,6 +33,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  height: 30px;
 }
 
 .mainmenu a {
@@ -46,6 +44,10 @@ header {
   margin: 0px;
 }
 
+.mainmenu a:last-child {
+  margin-right: 150px;
+}
+
 .onepager {
   font-weight: bold;
   font-size: 1.4em;
@@ -53,6 +55,7 @@ header {
   top: 0;
   left: 0;
   text-transform: uppercase;
+  padding-left: 150px;
 }
 
 .flex {
@@ -84,7 +87,7 @@ h2 {
 }
 
 .overview {
-  height: 100%;
+  min-height: 100%;
 }
 
 .overview > div:first-child {
@@ -132,7 +135,19 @@ h2 {
 
 .highlights {
   background-color: lightgrey;
-  height: 50vh;
+  align-items: center;
+  min-height: 50%;
+  justify-content: space-between;
+  padding: 0px 250px;
+}
+
+.highlights > div:first-child {
+  width: 75%;
+  font-size: 1.4em;
+}
+
+.highlights i {
+  font-size: 200px;
 }
 
 .fa {
@@ -141,6 +156,66 @@ h2 {
 
 .fa-grav {
   color: black;
+}
+
+.features {
+  min-height: 100%;
+}
+
+.features-box {
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.features-box .box {
+  width: 25%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.features > div:first-child {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.features-box .fa {
+  font-size: 2.5em;
+}
+
+.features-box p {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.download {
+  background-color: #0ec2f7;
+  color: white;
+  justify-content: space-between;
+  min-height: 25%;
+  align-items: center;
+}
+
+.download h3 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+.download button {
+  color: white;
+  background-color: #0ec2f7;
+  font-size: 1.1em;
+  width: 170px;
+  height: 60px;
+  border-radius: 50px;
+  border: 3px solid white;
+}
+
+.mainfooter {
+  background-color: #0CB8EA;
+  min-height: 8%;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
